@@ -2,8 +2,8 @@ package com.java.beginner.GettingStarted.ConditionalLogicAndBlockStatements;
 
 public class conditionalLogicStatements {
     public static void main(String[] args) {
-        int value1=7;
-        int value2=8;
+        int value1=8;
+        int value2=7;
         int maxValue=value1>value2?value1:value2;
         System.out.println(maxValue);
 

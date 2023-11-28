@@ -27,6 +27,5 @@ public class Variables {
         System.out.println(regularU);
         char accentedU='\u00DA';
         System.out.println(accentedU);
-
     }
 }

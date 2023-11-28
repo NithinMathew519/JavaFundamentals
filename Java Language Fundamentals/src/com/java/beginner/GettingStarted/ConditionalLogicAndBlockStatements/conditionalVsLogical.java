@@ -7,5 +7,10 @@ public class conditionalVsLogical {
 
         if (rooms != 0 && students / rooms > 30)
             System.out.println("Crowded");
+        else if (rooms==0 && students > 30) {
+            System.out.println("Rooms not Available");
+        }
+        else
+            System.out.println("No rooms and students are available");
     }
 }
