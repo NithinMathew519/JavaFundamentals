@@ -1,4 +1,4 @@
-package com.java.beginner.ScalerTopicsJava;
+package com.java.beginner.ScalerTopicsJava.StringStringBufferStringBuilder;
 
 public class StrBuff {
     public static void main(String[] args) {

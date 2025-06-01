@@ -1,4 +1,4 @@
-package com.java.beginner.ScalerTopicsJava.Arrays;
+package com.java.beginner.ScalerTopicsJava.Collections;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -31,5 +31,5 @@ public class ArrayListExample {
 //    1. Using the add Keyword
 //    2. Using asList() AsList() method in Java is used to return a fixed-size list backed by the given array.
 //    3. Using list.of() Method It is used to return immutable lists containing the specified elements.
-//    
+//
 }

@@ -1,5 +1,5 @@
-package Practice.Objects;
-
+package com.java.beginner.ScalerTopicsJava.WrapperClasses;
+// This is an Example of a custom wrapper class
 public class CustomWrapperClasses {
     private int x;
     private int y;

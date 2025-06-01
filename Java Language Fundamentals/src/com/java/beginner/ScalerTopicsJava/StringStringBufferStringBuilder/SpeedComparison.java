@@ -10,11 +10,7 @@ public class SpeedComparison {
             temp1.append("abcd");
         }
 
-        System.out.println(
-                "Time taken by StringBuffer Class for updation: " +
-                        (System.currentTimeMillis() - startTime) +
-                        "ms"
-        );
+        System.out.println("Time taken by StringBuffer Class for updation: " + (System.currentTimeMillis() - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
         StringBuilder temp2 = new StringBuilder("InterviewBit");
@@ -22,10 +18,6 @@ public class SpeedComparison {
             temp2.append("abcd");
         }
 
-        System.out.println(
-                "Time taken by StringBuilder Class for updation: " +
-                        (System.currentTimeMillis() - startTime) +
-                        "ms"
-        );
+        System.out.println("Time taken by StringBuilder Class for updation: " + (System.currentTimeMillis() - startTime) + "ms");
     }
 }

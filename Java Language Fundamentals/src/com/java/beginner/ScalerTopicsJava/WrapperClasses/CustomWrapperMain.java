@@ -1,7 +1,7 @@
 package com.java.beginner.ScalerTopicsJava.WrapperClasses;
 
-public class WrapperMain extends CustomWrapperClasses{
-    public WrapperMain(int x, int y) {
+public class CustomWrapperMain extends CustomWrapperClasses{
+    public CustomWrapperMain(int x, int y) {
         super(x, y);
     }
 
@@ -10,7 +10,7 @@ public class WrapperMain extends CustomWrapperClasses{
 //        System.out.println(cw);
 //    }
     public static void main(String[] args) {
-        WrapperMain obj = new WrapperMain(10, 20); // Here, you are creating an object of your custom wrapper class and adding values to it.
+        CustomWrapperMain obj = new CustomWrapperMain(10, 20); // Here, you are creating an object of your custom wrapper class and adding values to it.
         System.out.println(obj.getX());
         System.out.println(obj.getY());
     }

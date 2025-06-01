@@ -7,7 +7,7 @@ class Person{
     }// equals() not overridden here
 }
 
-public class Equality {
+public class Equality1 {
 
     public static void main(String[] args) {
         String name = "Nithin";
